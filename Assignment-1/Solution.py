@@ -20,7 +20,7 @@ def factorial(n):
 
 def main():
 	data=input()
-	for i in range(int(data)):
+	for _ in range(int(data)):
 		a = input()
 		print(factorial(int(a)))	
 
